@@ -4,35 +4,35 @@ import { MapPin, Phone, Mail, Navigation } from 'lucide-react';
 export function Branches() {
   const branches = [
     {
-      name: 'Headquarters',
-      location: 'Accra, Ghana',
-      address: 'P.O. Box 1234, Accra',
-      phone: '+233 24 123 4567',
-      email: 'accra@dailybread.org',
-      pastor: {
-        name: 'Pastor John Mensah',
-        image: '/pastor-john.jpg'
-      }
-    },
-    {
-      name: 'Kumasi Branch',
-      location: 'Kumasi, Ghana',
-      address: 'P.O. Box 5678, Kumasi',
-      phone: '+233 24 234 5678',
-      email: 'kumasi@dailybread.org',
-      pastor: {
-        name: 'Pastor Sarah Osei',
-        image: '/pastor-sarah.jpg'
-      }
-    },
-    {
-      name: 'Tema Branch',
-      location: 'Tema, Ghana',
+      name: 'Matero Branch',
+      location: 'Lusaka, Zambia',
       address: 'P.O. Box 9012, Tema',
       phone: '+233 24 345 6789',
       email: 'tema@dailybread.org',
       pastor: {
-        name: 'Pastor Michael Boateng',
+        name: 'Evangelist Zulu',
+        image: '/zulu.jpg'
+      }
+    },
+    {
+      name: 'Kabanana Branch',
+      location: 'Kabanana, Zambia',
+      address: 'P.O. Box 5678, KABANANA',
+      phone: '+233 24 234 5678',
+      email: 'kumasi@dailybread.org',
+      pastor: {
+        name: 'Pastor Tembo',
+        image: '/pastor-sarah.jpg'
+      }
+    },
+    {
+      name: 'Matero Branch',
+      location: 'Lusaka, Zambia',
+      address: 'P.O. Box 9012, Tema',
+      phone: '+233 24 345 6789',
+      email: 'tema@dailybread.org',
+      pastor: {
+        name: 'Evangelist Zulu',
         image: '/pastor-michael.jpg'
       }
     }
@@ -56,7 +56,7 @@ export function Branches() {
           <p className="text-gray-600 text-xl">Find a branch near you</p>
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
           {branches.map((branch, index) => (
             <div key={index} className="group relative">
               {/* Glow Effect */}
@@ -71,10 +71,7 @@ export function Branches() {
                   <img
                     src={branch.pastor.image}
                     alt={branch.pastor.name}
-                    className="w-16 h-16 rounded-full object-cover border-2 border-blue-200 shadow-md"
-                    onError={(e) => {
-                      e.target.src = '/FB_IMG_1770408916779.jpg';
-                    }}
+                    className="w-50 h-50 rounded-lg object-cover border-2 border-blue-200 shadow-md"
                   />
                   <div>
                     <h4 className="text-lg font-bold text-gray-900">{branch.pastor.name}</h4>

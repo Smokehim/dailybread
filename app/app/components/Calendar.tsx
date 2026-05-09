@@ -48,7 +48,7 @@ export function Calendar() {
   const monthYearString = currentDate.toLocaleDateString('en-US', { month: 'long', year: 'numeric' });
   
   // Year Theme configuration
-  const yearTheme = "Year of Divine Elevation"; // Change this to update the year theme
+  const yearTheme = "Year of Transformation"; // Change this to update the year theme
 
   return (
     <section id="calendar" className="py-20 bg-gradient-to-br from-white via-purple-50 to-blue-50 relative overflow-hidden">

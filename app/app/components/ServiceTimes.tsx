@@ -5,7 +5,7 @@ export function ServiceTimes() {
     {
       icon: Calendar,
       title: 'Sunday Service',
-      time: '08:00 AM – 12:00 PM',
+      time: '11:00 AM – 12:30 PM',
       description: 'Join us for worship and fellowship',
       gradient: 'from-blue-500 to-cyan-400',
       bgColor: 'bg-blue-500',
