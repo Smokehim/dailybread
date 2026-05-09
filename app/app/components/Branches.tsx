@@ -22,7 +22,7 @@ export function Branches() {
       email: 'kumasi@dailybread.org',
       pastor: {
         name: 'Pastor Tembo',
-        image: '/pastor-sarah.jpg'
+        image: '/FB_IMG_1770408916779.jpg'
       }
     },
     {
@@ -33,7 +33,7 @@ export function Branches() {
       email: 'tema@dailybread.org',
       pastor: {
         name: 'Evangelist Zulu',
-        image: '/pastor-michael.jpg'
+        image: '/zulu.jpg'
       }
     }
   ];

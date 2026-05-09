@@ -17,16 +17,16 @@ export function Header() {
 
   return (
     <header className="fixed top-0 left-0 right-0 bg-white shadow-md z-50">
-      <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <nav className="max-w-8xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-20">
           {/* Logo */}
-          <div className="flex items-center space-x-3">
-            <img src="/1.png" alt="Daily Bread Outreach Ministry" className="h-16 w-16" />
+          <div className="flex items-center space-x-2">
+            <img src="/1.png" alt="Daily Bread Outreach Ministry" className="h-13 w-13" />
             <div className="hidden md:block">
-              <div className="text-blue-900 font-bold text-lg leading-tight">
-                Daily Bread Outreach
+              <div className="text-blue-900 font text-md leading-tight">
+                Daily Bread Outreach Ministry
               </div>
-              <div className="text-blue-900 font-bold text-lg leading-tight">Ministry International</div>
+              {/* <div className="text-blue-900 font text-lg leading-tight">Ministry International</div> */}
             </div>
           </div>
 

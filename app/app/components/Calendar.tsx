@@ -214,9 +214,11 @@ export function Calendar() {
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {[
-              { title: "Easter Sunday Celebration", date: "April 2026", image: "/1.png" },
-              { title: "Youth Conference", date: "March 2026", image: "/FB_IMG_1770408916779.jpg" },
-              { title: "Worship Night", date: "February 2026", image: "/1.png" },
+              { title: "Big Sunday Celebration", date: "April 2026", image: "/bigsunday.jpeg" },
+              { title: "Youth Conference", date: "March 2026", image: "/conference.jpeg" },
+              { title: "Youth Day", date: "February 2026", image: "/youth day.jpeg" },
+              { title: "Worship Night", date: "January 2026", image: "/5.jpeg" },
+              { title: "Zulu Service", date: "December 2025", image: "/zulu.jpg" },
             ].map((item, idx) => (
               <div key={idx} className="group relative rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 border-2 border-transparent hover:border-blue-400">
                 <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent z-10 opacity-80 group-hover:opacity-100 transition-opacity" />
