@@ -36,7 +36,7 @@ export function Hero() {
             <span className="text-white text-lg font-black tracking-widest uppercase">Welcome to Our Ministry</span>
           </div>
 
-          <h1 className="text-6xl md:text-8xl lg:text-8xl font-bold text-white mb-6 leading-tight drop-shadow-[0_10px_10px_rgba(0,0,0,0.5)]">
+          <h1 className="text-6xl md:text-8xl lg:text-8xl font-bold text-blue-800 mb-6 leading-tight drop-shadow-[0_10px_10px_rgba(0,0,0,0.5)]">
             Daily Bread Outreach
             <br />
             <span className="bg-gradient-to-r from-yellow-300 via-orange-300 to-pink-300 bg-clip-text text-transparent">
