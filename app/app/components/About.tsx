@@ -49,19 +49,21 @@ export function About() {
         </div>
 
         {/* Stats Section */}
-        <div className="grid grid-cols-3 gap-6 mb-16 max-w-4xl mx-auto">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 mb-16 max-w-5xl mx-auto">
           {stats.map((stat, index) => {
             const Icon = stat.icon;
             return (
               <div
                 key={index}
-                className="bg-white/80 backdrop-blur-sm rounded-2xl p-6 text-center shadow-lg border border-white/50"
+                className="bg-white/80 backdrop-blur-md rounded-3xl p-8 text-center shadow-xl border border-white/50 hover:scale-105 transition-transform duration-300"
               >
-                <Icon className="h-8 w-8 mx-auto mb-2 text-blue-600" />
-                <div className="text-3xl md:text-4xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
+                <div className="inline-flex items-center justify-center w-12 h-12 bg-blue-100 rounded-2xl mb-4">
+                  <Icon className="h-6 w-6 text-blue-600" />
+                </div>
+                <div className="text-4xl md:text-5xl font-black bg-gradient-to-r from-blue-700 to-purple-700 bg-clip-text text-transparent mb-2">
                   {stat.value}
                 </div>
-                <div className="text-gray-600 font-medium">{stat.label}</div>
+                <div className="text-gray-700 font-bold uppercase tracking-wider text-sm">{stat.label}</div>
               </div>
             );
           })}
