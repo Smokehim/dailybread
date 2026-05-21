@@ -7,7 +7,7 @@ export function Branches() {
       name: 'Matero Branch',
       location: 'Lusaka, Zambia',
       address: 'P.O. Box 9012, Tema',
-      phone: '+233 24 345 6789',
+      phone: '+260976434363',
       email: 'tema@dailybread.org',
       pastor: {
         name: 'Evangelist Zulu',
@@ -22,7 +22,7 @@ export function Branches() {
       email: 'kumasi@dailybread.org',
       pastor: {
         name: 'Pastor Tembo',
-        image: '/FB_IMG_1770408916779.jpg'
+        image: '/what.png'
       }
     },
     {
